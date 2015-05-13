@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+gem "simple_form"
+
+group :development do
+  gem "brakeman", require: false
+  gem "rails_best_practices", require: false
+end
+
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
